@@ -8,7 +8,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class Tests {
 
     @Test
-    @DisplayName("Что-то должно произойти если....")
     public void checkOneSymbolInWord() {
         String str = makeStringSmall("Z");
         assertEquals("Z1", str);
